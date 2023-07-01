@@ -18,7 +18,7 @@ Module.expectedDataFileDownloads++;
     } else {
       throw 'using preloaded data can only be done on a web page or in a web worker';
     }
-    var PACKAGE_NAME = 'C:/warslan_trojan/arslan_trojan - Kopya/23.03.2023_dosyalar/MecAppHTML_1_9/Binaries/HTML5/MecAppHTML_1_9.data';
+    var PACKAGE_NAME = 'C:/Program Files (x86)/Trojan_ars/MecAppHTML_1_9_130623/Binaries/HTML5/MecAppHTML_1_9.data';
     var REMOTE_PACKAGE_BASE = 'MecAppHTML_1_9.data';
     if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
       Module['locateFile'] = Module['locateFilePackage'];
@@ -149,10 +149,10 @@ Module['FS_createPath']('/MecAppHTML_1_9/Content', 'Paks', true, true);
           for (var i = 0; i < files.length; ++i) {
             DataRequest.prototype.requests[files[i].filename].onload();
           }
-              Module['removeRunDependency']('datafile_C:/warslan_trojan/arslan_trojan - Kopya/23.03.2023_dosyalar/MecAppHTML_1_9/Binaries/HTML5/MecAppHTML_1_9.data');
+              Module['removeRunDependency']('datafile_C:/Program Files (x86)/Trojan_ars/MecAppHTML_1_9_130623/Binaries/HTML5/MecAppHTML_1_9.data');
 
     };
-    Module['addRunDependency']('datafile_C:/warslan_trojan/arslan_trojan - Kopya/23.03.2023_dosyalar/MecAppHTML_1_9/Binaries/HTML5/MecAppHTML_1_9.data');
+    Module['addRunDependency']('datafile_C:/Program Files (x86)/Trojan_ars/MecAppHTML_1_9_130623/Binaries/HTML5/MecAppHTML_1_9.data');
   
     if (!Module.preloadResults) Module.preloadResults = {};
   
@@ -173,6 +173,6 @@ Module['FS_createPath']('/MecAppHTML_1_9/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 101, "filename": "/UE4CommandLine.txt"}, {"start": 101, "audio": 0, "end": 23674847, "filename": "/MecAppHTML_1_9/Content/Paks/MecAppHTML_1_9-HTML5.pak"}], "remote_package_size": 23674847, "package_uuid": "951f5353-e33d-4929-949e-fff8ffbb61c4"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 101, "filename": "/UE4CommandLine.txt"}, {"start": 101, "audio": 0, "end": 24380905, "filename": "/MecAppHTML_1_9/Content/Paks/MecAppHTML_1_9-HTML5.pak"}], "remote_package_size": 24380905, "package_uuid": "5b594ff2-bc6f-4678-9dac-cb8755da49d0"});
 
 })();
